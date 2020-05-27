@@ -15,6 +15,15 @@ healthy.
 
     redis.service.consul:6379
 
+# Run a client external to the container
+
+```bash
+./redis-client.sh
+```
+
+If you pass additional options to `redis-client.sh`, then they will be passed
+directly to redis.
+
 # License
 
 [MIT License](LICENSE)
